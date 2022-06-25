@@ -1,0 +1,94 @@
+/* font-family: "Akaya Telivigala", cursive; */
+/* font-family: "Chau Philomene One", sans-serif; */
+/* font-family: "Chicle", cursive; */
+/* font-family: "Coiny", cursive; */
+/* font-family: "Creepster", cursive; */
+/* font-family: "Freckle Face", cursive; */
+/* font-family: "Julee", cursive; */
+/* font-family: "Limelight", cursive; */
+/* font-family: "New Rocker", cursive; */
+/* font-family: "Ribeye", cursive; */
+/* font-family: "Wendy One", sans-serif; */
+/* font-family: "Zilla Slab Highlight", cursive; */
+
+/* font-family: 'Amaranth', sans-serif; */
+/* font-family: 'Averia Libre', cursive; */
+/* font-family: 'Convergence', sans-serif; */
+/* font-family: 'Kite One', sans-serif; */
+
+:root {
+  --skin2: #f3efec;
+  --background2: #e07b8d;
+  /* --red: #ed2860;
+    --dark-red: #680524;
+    --black: #00243a;
+    --white: #fff; */
+}
+
+body {
+  border: 0;
+}
+
+/* .container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--skin2);
+} */
+
+.base {
+  width: 600px;
+  height: 600px;
+  background: var(--background2);
+  border-radius: 50%;
+  position: relative;
+}
+
+.title {
+  font-family: "Limelight", cursive;
+  font-size: 140px;
+  position: inherit;
+  z-index: 1;
+}
+
+.title .titleTop {
+  position: absolute;
+  top: 120px;
+  left: 105px;
+}
+
+.title .titleBottom {
+  position: absolute;
+  top: 280px;
+  left: 3px;
+}
+
+.title p {
+  margin: 0;
+  text-shadow: 2px 5px 10px #414142;
+}
+
+.subtitle {
+  position: absolute;
+  background: var(--skin2);
+  top: 440px;
+  left: 30px;
+  font-size: 52px;
+  font-family: "Averia Libre", cursive;
+  width: 580px;
+  padding: 5px;
+  z-index: 1;
+}
+
+figure {
+  position: absolute;
+  top: -85px;
+  left: 318px;
+  width: 400px;
+}
+
+figure img {
+  /* -webkit-transform: scaleX(-1); */
+  width: 400px;
+}
